@@ -55,7 +55,7 @@ class Game extends React.Component {
 
     let status;
     if (winner) {
-      status = "Winner: " + winner;
+      status = "Winner: " + current.squares[winner[2]];
     } else if (this.state.stepNumber < 9) {
       status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     } else {
@@ -66,6 +66,7 @@ class Game extends React.Component {
         <div className="game-board">
           <Board
             squares={current.squares}
+            winningCombo={winner}
             onClick={(i) => this.handleClick(i)}
           />
         </div>
