@@ -10,7 +10,7 @@ ul {
   padding-left: 30px;
 }
 
-li button{
+li button {
   background-color: #ffffff;
   border: none;
   width: 100px;
@@ -20,7 +20,7 @@ li button{
   margin-bottom: 10px;
 }
 
-.container{
+.container {
   width: 400px;
   margin: 30vh auto;
 }
@@ -77,5 +77,5 @@ li button{
 }
 
 .win-square {
-  color: red;
+  color: #6748c5;
 }
