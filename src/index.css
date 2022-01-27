@@ -1,6 +1,8 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-color: #342489;
+  color: #ffffff;
 }
 
 ol,
@@ -8,6 +10,19 @@ ul {
   padding-left: 30px;
 }
 
+li button{
+  background-color: #ffffff;
+  border: none;
+  width: 100px;
+  height: 20px;
+  font-size: 11px;
+  border-radius: 10px;
+}
+
+.container{
+  width: 400px;
+  margin: 30vh auto;
+}
 .board-row:after {
   clear: both;
   content: "";
@@ -18,19 +33,29 @@ ul {
   margin-bottom: 10px;
 }
 
+.squares-container {
+  display: block;
+  background-color: #6748c5;
+  border-radius: 5px;
+  padding: 2px;
+}
+
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #342267;
+  border: 1px solid #342267;
   float: left;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 68px;
+  height: 68px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 68px;
+  border-radius: 5px;
+  margin: 3px;
+  color: #ffffff;
 }
 
 .square:focus {
