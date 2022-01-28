@@ -10,14 +10,14 @@ ul {
   padding-left: 30px;
 }
 
-li button {
+button {
   background-color: #ffffff;
   border: none;
   width: 100px;
   height: 22px;
   font-size: 10px;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .container {
